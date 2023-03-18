@@ -1,11 +1,11 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const path = require('path')
-const Employee = require("./lib/Employee");
-const page = require("./assets/template")
-const  Manager = require("./lib/manager");
-const Engineer = require("./lib/engineer");
-const Intern = require("./lib/intern");
+const Employee = require("./Employee");
+const page = require("./template")
+const  Manager = require("./manager");
+const Engineer = require("./engineer");
+const Intern = require("./intern");
 const memberArray = [];
 
 // Questions for user input
